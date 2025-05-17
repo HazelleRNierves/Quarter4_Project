@@ -1,0 +1,95 @@
+ body 
+{ 
+font-family: Arial; 
+margin: 30px; 
+background-color: #f3f4d4; 
+font-style: italic;
+
+}
+    
+header{
+font-family: 'Londrina Sketch';
+font-size: 5em;
+}
+h1 { 
+color: #2a7f62; 
+
+}
+    
+.required::after 
+{ content: "*"; 
+color: red; 
+margin-left: 3px; 
+}
+    
+.error 
+{ 
+color: red; 
+font-size: 0.9em; 
+display: none; 
+}
+    
+input, textarea 
+{ 
+display: block; 
+margin-bottom: 10px; 
+width: 300px; 
+}
+    
+label 
+{ 
+font-weight: bold; 
+}
+    
+button 
+{ 
+padding: 10px 20px; 
+background-color: #2a7f62; 
+color: white; 
+border: none; 
+cursor: pointer; 
+}
+    
+.field 
+{ 
+margin-bottom: 15px; 
+}
+
+nav
+{
+  background-color:#0A3409;
+  color: grey;
+  overflow:hidden;
+  font-weight: bold;
+  margin-left: 500px;
+  margin-right: 500px
+}
+
+nav ul
+{
+  list-style-type: none;
+  margin:0;
+  text-align:center;
+}
+
+nav li
+{
+  display:inline-block;
+  text-align:center;
+}
+
+nav li a
+{
+  display:block;
+  padding: 10px;
+  color: white;
+  text-decoration:none;
+  font-weight: bold;
+}
+nav li a:hover
+{
+  color: #98CA32;
+  background-color: grey;
+}
+
+    

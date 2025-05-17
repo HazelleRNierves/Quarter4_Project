@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Profile</title>
+<link rel="stylesheet" href="my5thstyle.css">
+
+</head>
+<body>
+
+<h1>Help & Take Action: Against Climate Change</h1>
+<div class="signInfo"id="signInfo"></div>
+
+<nav>
+ <ul>
+      <li><a href="Extern.html">Page 1</a></li>
+      <li><a href="Extern2.html">Page 2</a></li>
+      <li><a href="Extern3.html">Page 3</a></li>
+      <li><a href="Extern4.html">Quiz Time</a></li>
+      <li><a href="proj_signup_nierves.html">Signing Up</a></li>
+      <td>Profile</td>
+   
+ </ul>
+</nav>
+
+<script>
+const signInfoDiv = document.getElementById("signInfo");
+const fieldLabels = 
+  {
+   firstName:"First Name",
+   lastName:"Last Name",
+   email:"Email Address",
+   sex:"sex",
+   reason:"The reason why I support this campaign"
+  };
+
+  Object.keys(fieldLabels).forEach(field =>
+  {
+      const value = localStorage.getItem(field);
+      if (value) 
+          {
+           signInfoDiv.innerHTML +=`
+             <div class="field">
+             <strong>${fieldLabels[field]}:</strong>${value}
+             </div>`;
+          }
+  });
+</script>
+</body>
+</html>
+
+
