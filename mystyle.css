@@ -1,0 +1,178 @@
+body
+ {
+  font-family:Arial,san-serif;
+  background-color:green;
+  padding:0;
+  margin: 0;
+ }
+
+#wrapper
+{
+  width:90%;
+  margin: auto;
+  background-color:#F0F7D4;
+  padding:20px;
+  box-shadow:0px 0px 0px 10px #EBF7E3;
+  border:5px #559E54 solid;
+}
+
+#header
+{
+  background-color:#98CA32;
+  color:#0A3409;
+  padding: 20px 0;
+  text-align:center;
+  border:5px #559E54 solid;
+}
+
+#header h1
+{
+  margin: 0;
+  font-family: 'Londrina Sketch';font-size: 3em;
+
+}
+
+#explanation
+{
+  border-radius:25px;
+  margin: 10px 0px 0px 0px;
+  padding: 5px;
+  background-color: white;
+
+}
+
+#scenario 
+{
+  border-radius:15px;
+  width: 50%;
+  padding: 13px;
+  margin:0px 25px 0px 25px;
+  float: right;
+  font-size:15px;
+  font-style: italic;
+  background-color:#F0F7D4;
+}
+#WG
+{
+  z-index:100;
+  position: absolute;
+  top: 35px;
+  left: 80px;
+  height:85px;
+  width:85px;
+  border:1px solid;
+}
+#WG:hover{
+  transform: rotateX(160deg);
+}
+
+#nav
+{
+  background-color:#0A3409;
+  overflow:hidden;
+  border:5px #559E54 solid;
+}
+
+#nav ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align:right;
+}
+
+#nav li
+{
+  display:inline-block;
+}
+
+#nav li a
+{
+  display:block;  
+  color:white;
+  padding: 10px 10px;
+  text-decoration:none;
+  font-weight: bold;
+}
+
+#nav li a:hover
+{
+  background-color: green;
+  color: #98CA32;
+}
+
+
+
+.content
+{
+  padding: 20px;
+  line-height: 1.4;
+  color:#0A3409;
+  font-size:1.2em;
+}
+
+#tre {
+	background: url('https://opengameart.org/sites/default/files/Tree_SpriteSheet_Outlined.png') no-repeat -0px -0px;
+        float:right;
+	width: 1150px;
+	height: 125px;
+        
+}
+#Climate
+{
+  margin: 0px 60px 20px 25px;
+  width: 460px;
+  height: 400px;
+  border: 5px solid;
+}
+
+#Climate:hover{
+  transform: rotateX(160deg);
+}
+
+
+.content h2
+{
+  text-shadow: 2px 2px #98CA32;
+  font-family: 'Londrina Solid';
+  font-size: 1.5;
+  color: #0A3409;
+}
+
+footer
+{
+  background-color:#0A3409;
+  color: grey;
+  overflow:hidden;
+  font-weight: bold;
+  margin-left: 505px;
+  margin-right: 500px
+}
+
+footer ul
+{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  text-align:center;
+}
+
+footer li
+{
+  display:inline-block;
+  text-align:center;
+}
+
+footer li a
+{
+  display:block;
+  padding: 10px;
+  color: white;
+  text-decoration:none;
+  font-weight: bold;
+}
+footer li a:hover
+{
+  color: #98CA32;
+  background-color: grey;
+}

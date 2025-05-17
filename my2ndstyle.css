@@ -1,0 +1,192 @@
+body 
+ {
+  font-family:Arial,san-serif;
+  background-color:green;
+  padding:0;
+  margin: 0;
+ }
+
+#wrapper
+{
+  width:90%;
+  margin: auto;
+  background-color:#F0F7D4;
+  padding:20px;
+  box-shadow:0px 0px 0px 10px #EBF7E3;
+  border:5px #559E54 solid;
+}
+
+#header
+{
+  background-color:#98CA32;
+  color:#0A3409;
+  padding: 20px 0;
+  text-align:center;
+  border:5px #559E54 solid;
+}
+
+#sec2
+{ 
+  margin: 6px 5px 6px 5px;
+  border-radius: 25px;
+  padding:15px;
+  background-color:white;
+}
+
+#header h1
+{
+
+  font-family: 'Londrina Sketch';font-size: 3em;
+  margin: 0;
+  font-size: 2.5em;
+}
+
+#simple{
+  border:solid green;
+  border-radius:15px;
+  width: 55%;
+  padding: 5px;
+  margin:0px 25px 0px 25px;
+  float: right;
+  font-size:15px;
+  font-style: italic;
+  background-color:white;
+}
+
+#solutions h4
+{
+  border-radius: 25px;
+  padding:15px;
+  background-color:white;
+  margin-top:0.3em;
+  font-family: 'Londrina Sketch';
+  font-size: 3em;
+  text-align:center;
+  color:#559E54;
+}
+
+
+.content
+{
+  padding: 20px;
+  line-height: 1.4;
+  font-size:1.2em;
+  color:#0A3409;
+}
+
+.content h2
+{
+  text-shadow: 2px 2px #98CA32;
+  font-family: 'Londrina Solid';
+  font-size:1.5em;
+  color: #0A3409;
+}
+
+#PB
+{
+  float:left;
+  margin:2em;
+  width: 280px;
+  height: 260px;
+  border:5px solid;
+}
+#PB:hover
+{
+  transform: rotateX(160deg);
+
+}
+
+.content h3
+{
+  text-shadow: 2px 2px #98CA32;
+  font-family: 'Londrina Solid';
+  font-size:1.5em;
+  clear:left;
+  margin-top:2em;
+  color: #0A3409;
+}
+
+
+#sol ul 
+{
+  margin-top: 0em;
+  padding: 23px;
+  border: 5px solid #0A3409;
+}
+
+#sol li 
+{
+  margin-top:1.5em;
+  margin-left:1.7em;
+  font-size: 1.3em;
+  color:#0A3409;
+}
+
+#tre {
+	background: url('https://opengameart.org/sites/default/files/Tree_SpriteSheet_Outlined.png') no-repeat -13px -136px;
+	width: 146px;
+	height: 86px;
+        
+}
+
+#burningtree {
+	background: url('https://cdn-icons-png.flaticon.com/512/1861/1861890.png') no-repeat 0 0;
+        float:right;
+	width: 400px;
+	height: 445px;
+        transform: translate(23px,-74px);
+}
+
+
+#drought
+{
+  float:right;
+  margin:2em;
+  width: 260px;
+  height: 260px;
+  border:5px solid;
+}
+
+#drought:hover
+{
+  transform: rotateX(160deg);
+
+}
+
+footer
+{
+  background-color:#0A3409;
+  color: grey;
+  overflow:hidden;
+  font-weight: bold;
+  margin-left: 500px;
+  margin-right: 500px
+}
+
+footer ul
+{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  text-align:center;
+}
+
+footer li
+{
+  display:inline-block;
+  text-align:center;
+}
+
+footer li a
+{
+  display:block;
+  padding: 10px;
+  color: white;
+  text-decoration:none;
+  font-weight: bold;
+}
+footer li a:hover
+{
+  color: #98CA32;
+  background-color: grey;
+}

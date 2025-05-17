@@ -1,0 +1,204 @@
+
+
+body 
+ {
+  font-family:Arial,san-serif;
+  background-color:green;
+  padding:0;
+  margin: 0;
+ }
+
+video
+{
+  border:5px #559E54 solid;
+}
+
+#container2
+{
+  border:solid green;
+  border-radius:15px;
+  width: 70%;
+  padding: 5px;
+  margin:0px 25px 0px 25px;
+  float: right;
+  font-size:15px;
+  font-style: italic;
+  background-color:white;
+}
+
+#wrapper
+{
+  width:90%;
+  margin: auto;
+  background-color:#F0F7D4;
+  padding:20px;
+  box-shadow:0px 0px 0px 10px #EBF7E3;
+  border:5px #559E54 solid;
+}
+
+#container
+{
+  background-color:#98CA32;
+  color:#0A3409;
+  padding: 20px 0;
+  text-align:center;
+  border:5px #559E54 solid;
+}
+
+#header h1
+{
+
+  font-family: 'Londrina Sketch';font-size: 3em;
+  margin: 0;
+  font-size: 2.5em;
+}
+
+#sec1
+{
+  margin: 6px 5px 6px 5px;
+  border-radius: 25px;
+  padding:15px;
+  background-color:white;
+}
+
+#sec1 p
+{
+  padding: 20px;
+  line-height: 1.4;
+  font-size:15px;
+  color:#0A3409;
+}
+
+
+
+#sec1 h1
+{
+  text-shadow: 2px 2px #98CA32;
+  font-family: 'Londrina Solid';
+  font-size:1.5em;
+  clear:left;
+  margin-top:2em;
+  color: #0A3409;
+}
+
+#art{
+
+  margin: 6px 5px 6px 5px;
+  border-radius: 25px;
+  padding:15px;
+  width:50%;
+  float:center;
+  background-color:white;
+}
+
+#art a{
+  float:center;
+  font-size:15px;
+  color:green;
+}
+
+#LOTF {
+  float: right;
+  margin: 10px 100px 15px 20px;
+  width: 200px;
+  height: 110px;
+  border: 4px solid;
+  transition: width 4s, height 4s;
+}
+
+#LOTF:hover {
+  width: 250px;
+  height: 160px;
+}
+
+
+#Treeplanting {
+  float: right;
+  margin: 10px 100px 15px 20px;
+  width: 200px;
+  height: 110px;
+  border: 4px solid;
+  transition: width 4s, height 4s;
+}
+
+#Treeplanting:hover {
+  width: 250px;
+  height: 160px;
+}
+
+#Pollution {
+  float: left;
+  margin: 10px 100px 15px 20px;
+  width: 200px;
+  height: 110px;
+  border: 4px solid;
+  transition: width 4s, height 4s;
+}
+
+#Pollution:hover {
+  width: 250px;
+  height: 160px;
+}
+
+#tre {
+	background: url('https://opengameart.org/sites/default/files/Tree_SpriteSheet_Outlined.png') no-repeat -190px -0px;
+      float:right;
+	width: 975px;
+	height: 126px;
+      position:absolute;
+        
+}
+
+#bike {
+background: url('https://cdn-icons-png.flaticon.com/512/2972/2972185.png') no-repeat 0 -48px;
+background-size: 256px 256px;
+width: 256px;
+height: 160px;
+position: relative;
+animation: move 5s linear 2s infinite alternate;
+}
+
+@keyframes move {
+from { transform: translate(0, 0); }
+to { transform: translate(900px, 0); }
+ }
+
+
+
+
+footer
+{
+  background-color:#0A3409;
+  color: grey;
+  overflow:hidden;
+  font-weight: bold;
+  margin-left: 500px;
+  margin-right: 500px
+}
+
+footer ul
+{
+  list-style-type: none;
+  margin:0;
+  text-align:center;
+}
+
+footer li
+{
+  display:inline-block;
+  text-align:center;
+}
+
+footer li a
+{
+  display:block;
+  padding: 10px;
+  color: white;
+  text-decoration:none;
+  font-weight: bold;
+}
+footer li a:hover
+{
+  color: #98CA32;
+  background-color: grey;
+}
